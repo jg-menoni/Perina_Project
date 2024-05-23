@@ -1,0 +1,48 @@
+*{ /*modificações padrões para que o site se adeque aos diferentes navegadores*/
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{ /*a função root tem como caracteristira armazenar variaveis de informações do site*/
+    --vermelho: rgb(243, 16, 16); /*variavel com a com principal do site*/
+}
+
+/*Div 1, Cabeçario do site*/
+
+.cabecario{
+    background-color: var(--vermelho);
+    height: 20vh; /*a altura do cabeçario*/
+    display: flex; /*este elemento possibilita as modificações de direção dentro da Div*/
+    align-items: center;/*alinhamentos dos elementos no centro do cabeçario*/
+    flex-direction: row; /*todos os elementos da Div cabeçario ficam em linha*/
+    justify-content: space-between;/*esse elemento trata um espaço entre os elementos da Div, independende da quantidade*/
+    padding: 0px 90px 0px 30px;/*distancia dos elementos da borda da Div*/
+    
+}
+
+.a_cabecario{ /*ancoras dentro do cabeçario*/
+    text-decoration: none; /*elemento usado para remover a linha que tem dentro do links como padrão*/
+    padding: 25px; /*distancia de 25px para cada Ancora dentro do cabeçario*/
+    font-family: Arial, Helvetica, sans-serif; /*font usada nas letras do cabeçario*/
+    color: white; /*com da fonte das ancoras*/
+    text-shadow: 6px 4px 4px black; /*bordas nas letras*/
+}
+
+/*Final da Div 1, cabeçario */
+
+.d2{
+    background-color: bisque;
+    height: 70vh;
+}
+
+.sobre{
+    background-color: var(--vermelho);
+    height: 50vh; 
+}
+
+.d3{
+    background-color: bisque;
+    height: 70vh;
+}
+
