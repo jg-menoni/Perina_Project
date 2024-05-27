@@ -8,28 +8,32 @@
     --vermelho: rgb(243, 16, 16); /*variavel com a com principal do site*/
 }
 
-/*Div 1, Cabeçario do site*/
 
+
+/*Div 1, Cabeçario do site*/
 .cabecario{
-    background-color: var(--vermelho);
+    background-color: var(--vermelho);/*cor do cabeçario*/
+    font-size: 120%;/*tamanho da font usada no cabeçario*/
+    width: 100%; /* Faz o cabeçalho ocupar toda a largura da tela */
     height: 20vh; /*a altura do cabeçario*/
     display: flex; /*este elemento possibilita as modificações de direção dentro da Div*/
     align-items: center;/*alinhamentos dos elementos no centro do cabeçario*/
     flex-direction: row; /*todos os elementos da Div cabeçario ficam em linha*/
     justify-content: space-between;/*esse elemento trata um espaço entre os elementos da Div, independende da quantidade*/
     padding: 0px 90px 0px 30px;/*distancia dos elementos da borda da Div*/
-    
+    position: fixed; /*ele para o cabeçario ficar fixado no topo do site*/
 }
 
 .a_cabecario{ /*ancoras dentro do cabeçario*/
     text-decoration: none; /*elemento usado para remover a linha que tem dentro do links como padrão*/
     padding: 25px; /*distancia de 25px para cada Ancora dentro do cabeçario*/
-    font-family: Arial, Helvetica, sans-serif; /*font usada nas letras do cabeçario*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*font usada nas letras do cabeçario*/
     color: white; /*com da fonte das ancoras*/
     text-shadow: 6px 4px 4px black; /*bordas nas letras*/
 }
-
 /*Final da Div 1, cabeçario */
+
+
 
 .d2{
     background-color: bisque;
@@ -46,3 +50,32 @@
     height: 70vh;
 }
 
+
+/*inicio Div 5, redes sociais e informações adicionais*/
+.conclusao{/*essa é a Div pai de todos os 3 elementos dentro desse campo: loja, redes, sobre*/
+    background-color: rgb(50, 49, 47); /* Define a cor de fundo para cinza */
+    height: 50vh; /* define o tamanho da altura da div */
+    font-family: Arial, Helvetica, sans-serif; /* define a fonte das letras da div */
+    display: flex; /* este elemento possibilita as modificações de direção dentro da Div  */
+    align-items: center; /* alinhamentos dos elementos no centro do cabeçario */
+    justify-content: space-between; /* esse elemento trata um espaço entre os elementos da Div, independende da quantidade */
+
+}
+
+.loja{
+    padding: 2px 50px; /* */
+    flex-direction: column;
+
+}
+
+.a_redes{
+    color: white;
+    text-decoration: none;
+}
+
+
+.redes_sociais{
+    padding: 25px 100px;
+    color: white;
+    text-decoration: none;
+}
