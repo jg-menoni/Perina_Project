@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 *{ /*modificações padrões para que o site se adeque aos diferentes navegadores*/
     margin: 0%;
     padding: 0%;
@@ -22,12 +24,14 @@
     justify-content: space-between;/*esse elemento trata um espaço entre os elementos da Div, independende da quantidade*/
     padding: 0px 90px 0px 30px;/*distancia dos elementos da borda da Div*/
     position: fixed; /*ele para o cabeçario ficar fixado no topo do site*/
+    border-bottom: 2px  solid black; /*bordar apenas na parte de baixo do cabeçario*/
 }
 
 .a_cabecario{ /*ancoras dentro do cabeçario*/
     text-decoration: none; /*elemento usado para remover a linha que tem dentro do links como padrão*/
     padding: 25px; /*distancia de 25px para cada Ancora dentro do cabeçario*/
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*font usada nas letras do cabeçario*/
+    font-family: 'Rubik', sans-serif; /*font usada nas letras do cabeçario*/
+    font-weight: 550;/*essa propriedade controla a largura da font ultilizada */
     color: white; /*com da fonte das ancoras*/
     text-shadow: 6px 4px 4px black; /*bordas nas letras*/
 }
@@ -35,10 +39,17 @@
 
 
 
-.d2{
+.apresentacao{
     background-color: bisque;
     height: 70vh;
 }
+
+.video{
+    display: flex;
+    top: 50%;
+}
+
+
 
 .sobre{
     background-color: var(--vermelho);
@@ -75,7 +86,10 @@
 
 
 .redes_sociais{
-    padding: 25px 100px;
+    padding: 30px 100px;
     color: white;
     text-decoration: none;
+}
+.sobre_nos{
+    padding: 10px 30px 30px 30px;
 }

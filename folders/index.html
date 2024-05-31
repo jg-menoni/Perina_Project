@@ -3,30 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perina</title>
-    <link rel="stylesheet" href="/styles/index.css">
-    <link rel="stylesheet" href="/styles/hover.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Perina</title> <!--titulo do nosso site-->
+    <link rel="stylesheet" href="/styles/index.css"> <!--link1 dos estilos do nosso site-->
+    <link rel="stylesheet" href="/styles/hover.css"> <!--link2 dos estilos do nosso site-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--link dos estilos de font do cabeçario-->
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"> <!--link para importe dos icones de redes sociais-->
 </head>
 <body>
     <!--div principal do site, armazenando todos os principais elementos-->
     <div class="container">
         <!--div do cabeçario, com icone da Perina e com elementos que ficaram à cima do site-->
         <div class="cabecario">
-            <!--imagem do cabeçario-->
-            <img src="/pngs/imagem_perina_oficial.jpg" alt="logo_perina" height="130vh">
+            <img src="/pngs/imagem_perina_oficial.jpg" alt="logo_perina" height="128vh"><!--imagem do cabeçario-->
             <div class="inf">
                 <!--Informações do cabeçario-->
-                <a href="#" class="a_cabecario">Home</a>
-                <a href="#" class="a_cabecario">Cadastrar</a>
-                <a href="#" class="a_cabecario">Orçamento</a>
-                <a href="#" class="a_cabecario">sobre nós</a>
-                <a href="#" class="a_cabecario">contato</a>
+                <a href="#" class="a_cabecario">HOME</a>
+                <a href="#" class="a_cabecario">CADASTRAR</a>
+                <a href="#" class="a_cabecario">ORÇAMENTO</a>
+                <a href="#" class="a_cabecario">SOBRE NÓS</a>
+                <a href="#" class="a_cabecario">CONTATO</a>
             </div>
-        <!--final da div , cabeçario-->
-        </div>
-        <div class="d2"></div>
-        <div class="sobre"></div>
+        </div><!--final da div , cabeçario-->
+        <!--div do Video de apresentação da nossa pagina principal-->
+        <div class="apresentacao">
+            <div class="video">
+                <H1>VIDEO DE APRESENTAÇÃO</H1>
+                <!--<video src="" width="320" height="240"controls>
+                    <source src="" type="video/mp4"> video de apresentação
+                </video>-->
+            </div>
+        </div><!--final da div , Video Apresentação-->
+        <!--div de informações dobre nós da pagina inicial-->
+        <div class="sobre">
+            <H1>JÃOZINHO ESTÁ NA RESPONSA</H1>
+        </div><!--final da div , sobre nós-->
         <div class="d3"></div>
         <!--div para final do site, armazenando todas a informações do loja com organização por divs-->
         <div class="conclusao">
@@ -38,25 +48,33 @@
                 </div>
                 <!--informações da loja Perina com link acesso para localização da loja-->
                 <div class="a_localicacao">
-                    <a href="https://www.google.com/maps/place/Perina+Funilaria+e+Pintura/@-20.8057201,-49.5470872,13.11z/data=!4m14!1m7!3m6!1s0x94bdaf46a0ae53fd:0x1c4440005b102531!2sPerina+Funilaria+e+Pintura!8m2!3d-20.812124!4d-49.510244!16s%2Fg%2F11sbzv5yv_!3m5!1s0x94bdaf46a0ae53fd:0x1c4440005b102531!8m2!3d-20.812124!4d-49.510244!16s%2Fg%2F11sbzv5yv_?entry=ttu" target="_blank" class="a_redes"><h5>Matriz</h5><br>
+                    <a href="https://www.google.com/maps/place/Perina+Funilaria+e+Pintura/@-20.8057201,-49.5470872,13.11z/data=!4m14!1m7!3m6!1s0x94bdaf46a0ae53fd:0x1c4440005b102531!2sPerina+Funilaria+e+Pintura!8m2!3d-20.812124!4d-49.510244!16s%2Fg%2F11sbzv5yv_!3m5!1s0x94bdaf46a0ae53fd:0x1c4440005b102531!8m2!3d-20.812124!4d-49.510244!16s%2Fg%2F11sbzv5yv_?entry=ttu" target="_blank" class="a_redes">
                     <p>v. José Emigdio de Faria, 2360 - Moreira</p>
                     <p>Mirassol - SP, 15130-000</p><br>
                     <p>(17)997343471</p><br>
-                    <p>perinafunilaria@gmail.com</p></a>
+                    <p>perinafunilaria@gmail.com</p></a><br>
+                    <p style="font-size: 25px; font-family: Arial; color: white;" >matriz</p>
                 </div>
             </div>
             <div class="redes_sociais">
                 <div class="redes">
-                    <a href=""><p>Instagram</p></a>
-                    <a href=""><p>Facebook</p></a>
-                    <a href=""><p>WhatsApp</p></a>
+                    <p style="font-size: 25px; font-family: Arial;">Social Media</p><br>
+                    <a href="#" class="a_redes" target="_blank" id="instagram"><i class="fab fa-instagram"></i><p>Instagram.com\perina</p></a><br>
+                    <a href="https://www.facebook.com/perinafunilariaepintura/?locale=pt_BR" class="a_redes" target="_blank" id="facebook"><i class="fab fa-facebook"></i><p>Facebook.com\perina</p></a><br>
+                    <a href="https://api.whatsapp.com/send?phone=5517997343471"class="a_redes" target="_blank" id="whatsapp"><i class="fab fa-whatsapp"></i><p>WhatsApp.app\perina</p></a><br>
+                </div>
+            </div>
+            <div class="sobre_nos">
+                <p style="font-size: 25px; font-family: Arial; color: white;" >Sobre Perina</p><br>
+                <p style="color:white">
+                    Nós do Perina somos dedicados a oferecer o melhor atendimento, <br> sempre com foco em qualidade e satisfação do cliente. <br> Com anos de experiência e uma equipe apaixonada,<br> trabalhamos para inovar e trazer a melhor experiência para você. <br><br> Agradecemos por confiar em nós.
+                </p>
+                <br><br>
+                <div style="font-size: 20px; color: white;">
+                    &#9733; Nos Avalie
                 </div>
             </div>
         <!--final da div de conclusão-->
-        </div>
-        <div class="contato">
-
-        </div>
     </div>
     <!--div com botão flutuante do WhatsApp , com direcionamento direto para o WhatsApp da Perina-->
     <div class="buttonzap">
