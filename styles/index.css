@@ -8,6 +8,7 @@
 
 :root{ /*a função root tem como caracteristira armazenar variaveis de informações do site*/
     --vermelho: rgb(243, 16, 16); /*variavel com a com principal do site*/
+    --vermelho2: rgb(137, 13, 13);
 }
 
 
@@ -53,8 +54,53 @@
 
 .sobre{
     background-color: var(--vermelho);
-    height: 50vh; 
+    height: 90vh; 
 }
+
+.container_sobre_nos{
+    background-color: var(--vermelho);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.esquerda, .direita {
+    flex: 1;
+    padding: 20px;
+}
+
+.esquerda {
+    font-family: 'Rubik', sans-serif;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px;
+}
+
+.btn{
+    padding: 25px 80px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    background-color: var(--vermelho);
+    border: none;
+}
+
+.direita {
+    background-image: linear-gradient(90deg, var(--vermelho), var(--vermelho2));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto_car{
+    padding: 7px;
+}
+
+
 
 .d3{
     background-color: bisque;
@@ -84,12 +130,14 @@
     text-decoration: none;
 }
 
-
 .redes_sociais{
     padding: 30px 100px;
     color: white;
     text-decoration: none;
 }
+
 .sobre_nos{
     padding: 10px 30px 30px 30px;
 }
+
+/*final  da div 5, redes sociais e informações adicionais*/

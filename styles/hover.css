@@ -6,11 +6,16 @@
 
 :root{ /*a função root tem como caracteristira armazenar variaveis de informações do site*/
     --vermelho: rgb(243, 16, 16); /*variavel com a com principal do site*/
+    --vermelho2: rgb(137, 13, 13);
 }
 
 /*hover é o metodo que altera as styles de qualquer elemento que o mouse esteja tocando*/
 .a_cabecario:hover{
     color: black;/*alteração na cor de font do cabeçario*/
+}
+
+.btn:hover{
+    background-color: var(--vermelho2);
 }
 
 
