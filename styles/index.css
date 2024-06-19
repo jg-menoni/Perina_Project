@@ -61,10 +61,12 @@
 
 .btn{
     padding: 25px 80px;
-    font-family: 'Rubik', sans-serif;
+    /*font-family: 'Rubik', sans-serif;*/
+    font-size: 15px;
     color: white;
-    background-color: var(--vermelho);
+    background-color: var(--vermelho2);
     border: none;
+    border-radius: 12px;
 }
 
 .direita {
@@ -83,8 +85,8 @@
 }
 
 .apresentacao{
-    height: 80vh;
-    background-color:  rgb(50, 49, 47);
+    height: 100vh;
+    background-image: url(/pngs.perina/capa_para_perina.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,7 +109,7 @@ padding-right: 4%;
     padding: 80px 35px;
     height: 50vh;
     width: 60%;
-    border-radius: 55px 0 55px 0;
+    border-radius: 55px ;
 }
 
 .serv1{

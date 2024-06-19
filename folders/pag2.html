@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/styles/pag2.css"><!--estilo dessa pagina link css-->
+    <link rel="stylesheet" href="/styles/hover.css">
+</head>
+<body>
+    <div class="container"><!--Div contendo todo o formulario-->
+        <form action="https://formsubmit.co/perinafunilaria@gmail.com" method="POST" class="inp">
+            <h1>Faça seu cadastro</h1><!-- Formulário de cadastro -->
+            <input type="text" name="name" placeholder="nome" required><!-- Campo para nome -->
+            <input type="text" name="sobrenome" placeholder="Sobrenome" required><!-- Campo para sobrenome -->
+            <input type="text" name="fone" placeholder="telefone" required><!-- Campo para telefone -->
+            <input type="email" name="email" placeholder="e-mail" required><!-- Campo para e-mail -->
+            <button type="submit" class="btn">Cadastrar</button><!-- Botão de envio do formulario-->
+            <input type="hidden" name="_subject" value="Novo Cadastro!"><!-- Campo oculto para o assunto do e-mail -->
+            <input type="text" name="_honey" style="display:none"><!-- Campo oculto para honeypot (proteção contra bots) -->
+            <input type="hidden" name="_captcha" value="false"><!-- Campo oculto para desativar CAPTCHA -->
+        </form>
+    </div>
+</body>
+</html>
