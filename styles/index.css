@@ -39,26 +39,10 @@
 /*Final da Div 1, cabeçario */
 
 
-
-.apresentacao{
-    background-color: bisque;
-    height: 70vh;
-}
-
-.video{
-    display: flex;
-    top: 50%;
-}
-
-
-
-.sobre{
-    background-color: var(--vermelho);
-    height: 90vh; 
-}
-
 .container_sobre_nos{
     background-color: var(--vermelho);
+    background-image: linear-gradient(115deg, var(--vermelho) 50%, var(--vermelho2) 55%);
+    padding: 80px 0px;
     display: flex;
     width: 100%;
     height: 100vh;
@@ -66,14 +50,8 @@
 
 }
 
-.esquerda, .direita {
-    flex: 1;
-    padding: 20px;
-}
-
 .esquerda {
-    font-family: 'Rubik', sans-serif;
-    background-color: white;
+    font-family:'Calibri';
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -90,21 +68,99 @@
 }
 
 .direita {
-    background-image: linear-gradient(90deg, var(--vermelho), var(--vermelho2));
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.esquerda, .direita {
+    flex: 1;
+    padding: 20px;
 }
 
 .foto_car{
     padding: 7px;
 }
 
+.apresentacao{
+    height: 80vh;
+    background-color:  rgb(50, 49, 47);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0px 0px 0px;
+}
+
+.servicos{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 5%;
+padding-left: 4%;
+padding-right: 4%;
+
+}
+
+.serv{
+    background-image: linear-gradient(115deg, var(--vermelho) 50%, var(--vermelho2) 55%);
+    padding: 80px 35px;
+    height: 50vh;
+    width: 60%;
+    border-radius: 55px 0 55px 0;
+}
+
+.serv1{
+    font-size: 15px;
+    font-family: 'calibri';
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.serv2{
+    font-family: 'calibri';
+    color: white;
+    display: flex;
+    padding: 10px 0px 10px 0px;
+}
+
+#i{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
 
 
-.d3{
-    background-color: bisque;
-    height: 70vh;
+@keyframes slides{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.logos{
+    overflow: hidden;
+    z-index: 10; /* Certifique-se de que este valor seja menor do que o z-index do cabeçalho */
+    position: relative; /* Necessário para que o z-index seja aplicado */
+}
+
+.logos-slides{
+    display: flex;
+    gap: 55px;
+    animation: 15s slides infinite linear;
+    padding: 12px 0;
+    position: relative; /* Necessário para que o z-index seja aplicado */
+    z-index: 10; /* Certifique-se de que este valor seja menor do que o z-index do cabeçalho */
+}
+
+.logos-slides img{
+    height: 125px;
 }
 
 

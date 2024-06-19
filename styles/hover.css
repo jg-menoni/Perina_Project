@@ -15,10 +15,74 @@
 }
 
 .btn:hover{
-    background-color: var(--vermelho2);
+    background-color: white;
+    color: black;
+    transition: background-color 0.8s; /* Transição de 3 segundos */
+}
+
+#serv1:hover {
+    background-image: none;
+    background-color: white;
+    transform: scale(1.05);
+    transition: background-color 3s, background-image 3s, transform 2s; /* Transição de 3 segundos */
+}
+
+#serv1:hover .serv1 h3 {
+    color: var(--vermelho);
+    transition: color 3s,/* Transição de 3 segundos */
+}
+#serv1:hover .serv2 p {
+   color: var(--vermelho);
+   transition: color 3s,/* Transição de 3 segundos */
+}
+
+#serv2:hover {
+    background-image: none;
+    background-color: white;
+    transform: scale(1.05);
+    transition: background-color 3s, background-image 3s, transform 2s; /* Transição de 3 segundos */
+}
+
+#serv2:hover .serv1 h3 {
+    color: var(--vermelho);
+    transition: color 3s,/* Transição de 3 segundos */
+}
+#serv2:hover .serv2 p {
+   color: var(--vermelho);
+   transition: color 3s,/* Transição de 3 segundos */
 }
 
 
+#serv3:hover {
+    background-image: none;
+    background-color: white;
+    transform: scale(1.05);
+    transition: background-color 3s, background-image 3s, transform 2s; /* Transição de 3 segundos */
+}
+#serv3:hover .serv1 h3 {
+    color: var(--vermelho);
+    transition: color 3s,/* Transição de 3 segundos */
+}
+#serv3:hover .serv2 p {
+   color: var(--vermelho);
+   transition: color 3s,/* Transição de 3 segundos */
+}
+
+
+#serv4:hover {
+    background-image: none;
+    background-color: white;
+    transform: scale(1.05);
+    transition: background-color 3s, background-image 3s, transform 2s; /* Transição de 3 segundos */
+}
+#serv4:hover .serv1 h3 {
+    color: var(--vermelho);
+    transition: color 3s,/* Transição de 3 segundos */
+}
+#serv4:hover .serv2 p {
+   color: var(--vermelho);
+   transition: color 3s,/* Transição de 3 segundos */
+}
 
 
 
